@@ -14,7 +14,7 @@ var x = setInterval(function() {
 
  var mins = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
  var secs = Math.floor((dist % (1000 * 60)) / 1000)
-document.getElementById("countdown").textContent = days + " Days, "  + hours + " Hours, " + mins + " Minutes& " + secs + " Seconds"
+document.getElementById("countdown").textContent = days + " Days, "  + hours + " Hours, " + mins + " Minutes & " + secs + " Seconds"
 
 
 
