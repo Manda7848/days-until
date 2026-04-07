@@ -14,7 +14,7 @@ var x = setInterval(function() {
 
  var mins = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
  
-document.getElementById("countdown").innerHTML = days + " Days "  + hours + " Hours " + mins + " Minutes"
+document.getElementById("countdown").innerHTML = days + " Days, "  + hours + " Hours & " + mins + " Minutes"
 
 
 
@@ -22,7 +22,7 @@ document.getElementById("countdown").innerHTML = days + " Days "  + hours + " Ho
 
 if (dist < 0) {
 clearInterval(x);
-document.getElementById("countdown").innerHTML = "Congratulations, you are done with WASSCE!"
+document.getElementById("countdown").innerHTML = "Congratulations, you are done with High School!"
 
 }
 
