@@ -13,8 +13,8 @@ var x = setInterval(function() {
  var hours = Math.floor((dist % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
 
  var mins = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
- 
-document.getElementById("countdown").textContent = days + " Days, "  + hours + " Hours & " + mins + " Minutes"
+ var secs = Math.floor((dist % (1000 * 60)) / 1000)
+document.getElementById("countdown").textContent = days + " Days, "  + hours + " Hours, " + mins + " Minutes& " + secs + " Seconds"
 
 
 
