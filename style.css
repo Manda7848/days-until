@@ -9,7 +9,7 @@ flex-direction: column;
  border-radius: 30px;
  box-shadow: 15px 15px gray;
 
- padding: 90px;
+ padding: 80px;
 
  margin: 90px;
  background-color: aliceblue;
@@ -18,7 +18,7 @@ flex-direction: column;
 
 #countdown{
 
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #timers{
