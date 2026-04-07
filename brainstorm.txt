@@ -30,3 +30,5 @@ idea, allow the uder to enter their dday in the beginning then hardocde it ig, u
 
 
 also, artemis 2 fan page for Christina or the capsule
+
+For the Custom countdown, find an svg api that can add a cute icon based off of what the countdown is about

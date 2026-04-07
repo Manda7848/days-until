@@ -16,6 +16,11 @@ flex-direction: column;
 }
 
 
+#countdown{
+
+    font-size: 2rem;
+}
+
 #timers{
     display: flex;
     flex-direction: row;
